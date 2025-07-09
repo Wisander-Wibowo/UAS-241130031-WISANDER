@@ -106,3 +106,23 @@ img { width: 80px;}
 .order-section button {
     border: none;
 }
+
+@media screen and (max-width: 768px) {
+    html { font-size: 85%;}
+
+    main {display: block;}
+
+    .order-section input, .order-section button {
+        height: 40px;
+    }
+
+    .card-produk {height: 40px;}
+
+    .card-produk img {width: 68px;}
+
+    .card-produk {height: 100px;}
+
+    .data-produk h3, .data-produk p {
+        margin-bottom: 1.5px;
+    }
+}
