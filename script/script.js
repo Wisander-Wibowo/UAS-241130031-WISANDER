@@ -29,3 +29,5 @@ $('#reset').click(() => {
         $(quantity).val(1);
     })
 })
+
+function apply() {}
