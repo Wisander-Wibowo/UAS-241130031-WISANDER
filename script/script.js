@@ -21,3 +21,11 @@ document.querySelectorAll('.card-produk').forEach(card => {
         harga.innerHTML = `$${(nominalHarga / value) * input.value}`
     })
 })
+
+$('#reset').click(() => {
+    $('#output').css('display', 'none');
+
+    $('.card-produk input').each((_, quantity) => {
+        $(quantity).val(1);
+    })
+})
